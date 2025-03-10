@@ -89,7 +89,7 @@ func TestSumFunc(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			got := Add(tt.args.a, tt.args.b)
 			if got != tt.wanted {
-				t.Errorf("Add() = %v, want %v", got, tt.wanted)
+				t.Errorf("Add() = %v, want %v", got, tt.wanted) //22
 			}
 		})
 	}
